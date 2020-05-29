@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Host</title>
+</head>
+<body>
+    <h1>hi we are hosting a website on github</h1>
+
+
+    <button id="btn">click</button>
+
+
+
+    <div style="width: 50px; height: 50px; background-color: blue;"  id="box"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                // alert ("button clicked")
+                $("#box").toggle()
+            })
+        })
+
+
+    </script>
+
+</body>
+</html>
