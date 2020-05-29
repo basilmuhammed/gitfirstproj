@@ -1,2 +1,5 @@
 hello world  !
+conflict
 hai
+new laptop 
+some text are changes
